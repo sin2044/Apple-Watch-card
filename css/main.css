@@ -1,0 +1,78 @@
+@import url(reset.css);
+
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 60px 0 60px 60px;
+}
+
+.card {
+    width: 420px;
+    padding: 20px 40px 50px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dbb9b9;
+}
+
+.card__img {
+    margin-bottom: 30px;
+}
+
+.card__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #cd2626;
+}
+
+.card__desc {
+    margin-bottom: 30px;
+    max-width: 330px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.card__text + .card__text {
+    margin-top: 1em;
+    
+}
+
+a.card__link {
+    color: #bd3030;
+    text-decoration: underline;
+}
+
+.card__price {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+}
+
+.card__strong-price {
+    font-weight: 700;
+}
+
+.card__btn {
+    display: inline-block;
+    padding: 16px 42px;
+    background-color: #cd2626;
+    border: 1px solid transparent;
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 8px;
+    transition: background-color .3s ease-in,
+    border .3s ease-in;
+}
+.card__btn:hover,
+:focus {
+    background-color: #e41919;
+    border: 1px solid #000000;
+}
+
+.card__btn:active {
+    background-color: #8e1010;
+    border: 1px solid #000000;
+} 
